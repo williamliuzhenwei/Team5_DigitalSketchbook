@@ -1,0 +1,120 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>ECE5 SKETCHBOOK</title>
+    <meta name="description" content="sketchbook">
+    <meta name="author" content="sketchbook">
+    <link rel="stylesheet" href="sketchbook.css"> <!-- this imports the CSS file. do not remove -->
+  </head>
+
+  <body>
+    
+    <div class="heading">
+      <h3 class='name'>First Name / Last Name</h3>
+      <h3 class=pId>PID: A12345678</h3>
+      <h1>ECE 5 Sketchbook</h1> <!-- h1 is heading 1 -->
+    </div>
+
+    <section class="main">
+
+      <div class='center'>
+        <button type='button' onclick="toggleText1()" class="btn">Title</button>
+      </div>
+      
+      <div class="interactive" id='interactive1' style='display: none'>
+        <div class='box1'>
+          <br>
+          <p class='box2'>Enter one line description here...</p> <!-- p is paragraph -->
+          <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png'>
+          <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
+        </div> <!-- This is the end of div box1 -->
+      </div> <!-- This is the end of div interactive -->
+        
+      <div class ='center'> <!-- we put hte buton in a container to center it -->
+        <button type='button' onclick="toggleText2()" class="btn">Title</button>
+      </div>
+      
+      <div class="interactive" id='interactive2' style='display: none'>
+        <div class='box1'>
+          <br>
+          <p class='box2'>Enter one line description here...</p> <!-- p is paragraph -->
+          <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png'>
+          <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
+        </div> <!-- This is the end of div interactive -->
+      </div> <!-- This is the end of div box1 -->
+      
+      <div class ='center'>
+        <button type='button' onclick="toggleText3()" class="btn">Title</button>
+      </div>
+      
+      <div class="interactive" id='interactive3' style='display: none'>
+        <div class='box1'>
+          <br>
+          <p class='box2'>Enter one line description here...</p> <!-- p is paragraph -->
+          <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png'>
+          <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
+        </div> <!-- This is the end of div interactive -->
+      </div> <!-- This is the end of div box1 -->
+      
+      <div class ='center'>
+        <button type='button' onclick="toggleText4()" class="btn">Title</button>
+      </div>
+      
+      <div class="interactive" id='interactive4' style='display: none'>
+        <div class='box1'>
+          <br>
+          <p class='box2'>Enter one line description here...</p> <!-- p is paragraph -->
+          <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png'>
+          <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
+        </div> <!-- This is the end of div interactive -->
+      </div> <!-- This is the end of div box1 -->
+      
+    </section>
+    <!-- This is the end of our section -->
+
+  </body>
+
+  <script>
+    function toggleText1(text) {
+      var text = document.getElementById("interactive1");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+
+
+    function toggleText2(text) {
+      var text = document.getElementById("interactive2");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+
+    function toggleText3(text) {
+      var text = document.getElementById("interactive3");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+
+    function toggleText4(text) {
+      var text = document.getElementById("interactive4");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+
+  </script>
+
+</html>
