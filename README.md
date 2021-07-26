@@ -11,7 +11,7 @@
 2. Go to your profile on GitHub and create a new repository
 3. Name your repository ECE5_Sketchbook_Initials
 
-## Editing the code - Edit#1 Your first steps- 
+## Editing and uploading the code
 1. Open the html file in VS code and edit the specified parts to customize your profile
 2. Upload your files to your repository through git terminal in VS code
 
