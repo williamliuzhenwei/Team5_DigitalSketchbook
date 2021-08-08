@@ -40,6 +40,10 @@
 8. Once you are done editing your code and like how it looks, copy the code in the *html* section in CodePen and paste it in your *index.html* file in VS Code and save changes
 9. Copy the code in the *css* section in CodePen and paste it in your *style.css* file in VS Code and save changes
 
+> ####Note: Steps to upload your own images (not images you get online)
+> - Upload your image to google photos https://photos.google.com/ 
+> - Use https://www.labnol.org/embed/google/photos/ to generate image link/ html embed code
+
 ## Section E: Uploading your code to your Github Repository 
 1. Navigate to your *ECE5_INITIALS_SKETCHBOOK* directory using the terminal commands
 2. One you are in the directory you should see (master) next to the directory name
