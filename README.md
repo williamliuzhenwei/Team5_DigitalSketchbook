@@ -11,7 +11,7 @@
 1. Click on the *+* button on the top right corner of the navigation bar and then on *New Repository* in the drop down menu
 2. Name your repository *ECE5_INITIALS_SKETCHBOOK* (Eg: ECE5_AA_SKETCHBOOK)
 3. Make sure it is set as a public repository
-4. Click on *create repository**
+4. Click on *New Repository*
 5. Now that your repository is created, click on *import code from another repository**
 6. In this repository click on the green *Code* button and copy the link 
 8. In the input bar paste the link then hit enter
