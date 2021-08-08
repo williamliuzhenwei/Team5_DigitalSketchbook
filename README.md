@@ -18,9 +18,9 @@
 1. Open VS Code > *Terminal* > *New Terminal* 
 2. Drop down menu to make sure the terminal is using Git Bash 
 3. Commands to know (navigating directories): ** 
-  - **cd ..** takes you back one director
-  - **ls** lists the files in the current directory 
-  - **cd (file name)** > tab takes you to the listed file
+ > - **cd ..** takes you back one director
+ > - **ls** lists the files in the current directory 
+ > - **cd (file name)** > tab takes you to the listed file
 4. Using the above commands navigate to the directory you wish to store the files in
 5. Commands to know (downloading files from Github):
 6. git clone (paste YOUR github repository link here)
@@ -42,10 +42,10 @@
 1. Navigate to your *ECE5_INITIALS_SKETCHBOOK* directory using the terminal commands
 2. One you are in the directory you should see (master) next to the directory name
 3. Commands to know (uploading files):
-  - **git status** shows you the status of your files compared to your Github repository
-  - **git add .** adds the changes you have made to the files
-  - **git commit -m"commit name"** saves the changes to a certain commit
-  - **git push** pushes the changes to your Github repository
+ > - **git status** shows you the status of your files compared to your Github repository
+ > - **git add .** adds the changes you have made to the files
+ > - **git commit -m"commit name"** saves the changes to a certain commit
+ > - **git push** pushes the changes to your Github repository
 4. Using the above commands push the changes you have made to your Github repository
 
 ## Section F: Hosting your website on Netlify
