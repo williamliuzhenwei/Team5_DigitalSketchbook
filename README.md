@@ -34,11 +34,11 @@
 2. Open your CodePen account and create a new pen by clicking on *pen* in the sidebar
 3. Right click the *index.html* file > *Open with Code* 
 4. Select all > Copy code and then paste it under the *html* section in CodePen
-5. Right click the *style.css* file > *Open with Code* 
+5. Right click the *sketchbook.css* file > *Open with Code* 
 6. Select all > Copy code and then paste it under the css section in CodePen
 7. Now you are all set to edit your code. Doing so in CodePen helps you see the changes you are making and how they would translate to your website.
 8. Once you are done editing your code and like how it looks, copy the code in the *html* section in CodePen and paste it in your *index.html* file in VS Code and save changes
-9. Copy the code in the *css* section in CodePen and paste it in your *style.css* file in VS Code and save changes
+9. Copy the code in the *css* section in CodePen and paste it in your *sketchbook.css* file in VS Code and save changes
 
 > **Note: Steps to upload your own images (not images you get online)**
 > - Upload your image to google photos https://photos.google.com/ 
