@@ -1,26 +1,58 @@
-# ECE5 Sketchbook
+## Section A: Setting up your work environment  
+1. Download VS Code from the following link https://code.visualstudio.com/download 
+2. Download Git Bash from the following link https://git-scm.com/downloads 
+3. Create a Github account https://github.com/ 
+4. Create a CodePen account https://codepen.io/ 
+5. Create a Netlify account https://www.netlify.com/ 
 
-## Setting up work environment 
-1. Create a GitHub account
-2. Download VS code: https://code.visualstudio.com/download 
-3. Download Git Bash: https://git-scm.com/downloads  
-3. Create a Netlify account linking it to your GitHub acoount: https://www.netlify.com/
+## Section B: Creating your own Github Repository 
+1. Click on the + button on the top right corner of the navigation bar and then on New Repository in the drop down menu
+2. Name your repository ECE5_INITIALS_SKETCHBOOK (Eg: ECE5_AA_SKETCHBOOK)
+3. Make sure it is set as a public repository
+4. Click on create repository
+5. Now that your repository is created, click on import code from another repository
+6. In this repository click on the green Code button and copy the link 
+8. In the input bar paste the link then hit enter
 
-## Starting your own repository
-1. Download the files from this repository (CSS-HTML-Template)
-2. Go to your profile on GitHub and create a new repository
-3. Name your repository ECE5_Sketchbook_Initials
+## Section C: Downloading code from github using VS Code and Git Bash
+1. Open VS Code > Terminal > New Terminal 
+2. Drop down menu to make sure the terminal is using Git Bash 
+3. Commands to know (navigating directories): ** 
+  a. cd .. takes you back one director
+  b. ls lists the files in the current directory 
+  c. cd (file name) > tab takes you to the listed file
+4. Using the above commands navigate to the directory you wish to store the files in
+5. Commands to know (downloading files from Github):
+6. git clone (paste YOUR github repository link here)
+7. Using the above line of code copy your repository’s link from the green code button and clone it in the VS Code terminal 
+8. Check to see that the files have been downloaded in your chosen directory
 
-## Editing and uploading the code
-1. Open the html file in VS code and edit the specified parts to customize your profile
-2. Upload your files to your repository through git terminal in VS code
+## Section D: Editing the code using VS Code and CodePen
+1. Navigate to where you cloned the Github repository and open the file (it should be named ECE5_INITIALS_SKETCHBOOK)
+2. Open your CodePen account and create a new pen by clicking on pen in the sidebar
+3. Right click the index.html file > Open with > VS Code 
+4. Select all > Copy code and then paste it under the html section in CodePen
+5. Right click the style.css file > Open with > VS Code 
+6. Select all > Copy code and then paste it under the css section in CodePen
+7. Now you are all set to edit your code. Doing so in CodePen helps you see the changes you are making and how they would translate to your website.
+8. Once you are done editing your code and like how it looks, copy the code in the html section in CodePen and paste it in your index.html file in VS Code and save changes
+9. Copy the code in the css section in CodePen and paste it in your style.css file in VS Code and save changes
 
-## Hosting your website
-1. Log in to your Netlify account
-2. Click on "New site from Git"
-3. Authorize Netlify 
-4. Select your repository 
-5. Make sure that the 'Branch to deploy' to your 'main' branch 
-6. Click on the 'Deploy Site' button
+## Section E: Uploading your code to your Github Repository 
+1. Navigate to your ECE5_INITIALS_SKETCHBOOK directory using the terminal commands **
+2. One you are in the directory you should see (master) next to the directory name
+3. Commands to know (uploading files):
+  a. git status shows you the status of your files compared to your Github repository
+  b. git add . adds the changes you have made to the files
+  c. git commit -m”commitname” saves the changes to a certain commit
+  d. git push pushes the changes to your Github repository
+4. Using the above commands push the changes you have made to your Github repository
 
-# Congragulations! Your Website is now hosted 
+## Section F: Hosting your website on Netlify
+1. Create a Netlify account and log in
+2. Click on New site from Git > Github
+3. Select your ECE5_INITIALS_SKETCHBOOK repository 
+4. Make sure the branch to deploy is master
+5. Click on Deploy site 
+
+## Congratulations! Now Your Website Is Hosted!
