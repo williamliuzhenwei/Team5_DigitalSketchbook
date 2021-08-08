@@ -1,3 +1,5 @@
+# Creating Your Own Website - ECE5 Sketchbook
+
 ## Section A: Setting up your work environment  
 1. Download VS Code from the following link https://code.visualstudio.com/download 
 2. Download Git Bash from the following link https://git-scm.com/downloads 
