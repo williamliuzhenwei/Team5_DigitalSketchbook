@@ -76,9 +76,7 @@ body{
 }
 
 .btn:hover {
-  
   box-shadow: 4px 6px #636363;
   font-weight: bold;
-  cursor: pointer;
 }
 
