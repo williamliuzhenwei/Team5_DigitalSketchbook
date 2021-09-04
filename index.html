@@ -83,19 +83,35 @@
           <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
         </div> <!-- This is the end of div interactive -->
       </div> <!-- This is the end of div box1 -->
+      
       <div class ='center'>
-        <button type='button' onclick="toggleText5()" class="btn">Team 5 Group Sketch</button>
+        <button type='button' onclick="toggleText5()" class="btn">Team 5 First Group Sketch</button>
       </div>
       
       <div class="interactive" id='interactive5' style='display: none'>
         <div class='box1'>
           <br>
-          <p class='box2'>Enter one line description here...</p> <!-- p is paragraph -->
-          <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png'>
+          <p class='box2'>Build a parking sensor on Arduino Mega and connect it to MATLAB to show the real-time distance with plot</p> <!-- p is paragraph -->
+          <img src = 'https://lh3.googleusercontent.com/Gza59_RHYh4xWJOJfvZ7D35X_kGl_L4wyS7JqaNhun3nzW8Ed96sKQBwrcOOx5UTdDHIV4AHBBlWQF8e6oQSG5SgwgBwJYIP2q0mbN8aPIUTyWuejdrH3dDQNbHTcf_k_yWWS3joqw=w2400?source=screenshot.guru' height = 500 px>
+          <img src = 'https://lh3.googleusercontent.com/VTmMsIu7saqN0seCmnexDGkCmw_rRgixjjgCd7VXw5tXKarEE0GqTRYve5uR2zAMOU0ApscV50_Jd22CSYTeWdo_DJIHTF60zoJPvmjl53PhBrmWBD-LeQCjPbfXRgtiluh0gmG0mA=w2400?source=screenshot.guru' height = 500 px>
+          
           <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
         </div> <!-- This is the end of div interactive -->
       </div> <!-- This is the end of div box1 -->
       
+      <div class ='center'>
+        <button type='button' onclick="toggleText6()" class="btn">Team 5 Second Group Sketch</button>
+      </div>
+      
+      <div class="interactive" id='interactive6' style='display: none'>
+        <div class='box1'>
+          <br>
+          <p class='box2'>Calculating distance and theta between an obstacle an a midpoint using two sensor readings</p> <!-- p is paragraph -->
+          <img src = 'https://lh3.googleusercontent.com/HJXjPgJixolH8PVlpHVBABsffcLvI4fAfqn7YBtLdgUyzHGEKdSppXWUtWjLMe1WqEJmdLIUcxWmaMZb60dbstapam9ujgGdR8tlIXLbIY9UBV8txnETY6vfV7yfaABO0Kekcs4p5A=w2400?source=screenshot.guru' height = 800 px>
+          <img src = 'https://lh3.googleusercontent.com/yJZufMN6TKVDaadTfGUoo0Xoa9Y03P3nFn2b-VKc4OZH6fRMxbnWP034HAL8JaI4sluHkDyPxG9L7T3H-ZdTHHbgvOeFKxi6wFNbDVtUFq8waT1_JMWwMSOn_clrDjQK61miamysKg=w2400?source=screenshot.guru' height = 500 px>
+          <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
+        </div> <!-- This is the end of div interactive -->
+      </div> <!-- This is the end of div box1 -->
     </section>
     <!-- This is the end of our section -->
 
@@ -141,6 +157,15 @@
     
     function toggleText5(text) {
       var text = document.getElementById("interactive5");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+    
+    function toggleText6(text) {
+      var text = document.getElementById("interactive6");
       if (text.style.display === "none") {
         text.style.display = "block";
       } else {
